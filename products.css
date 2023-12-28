@@ -78,3 +78,63 @@ html, body{
     width: 50%;
     height: 60vh;
 }
+
+.cart-product{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 8%;
+    width: 80%;
+    height: 25vh;
+}
+.cart-product-image{
+    height: 25vh;
+}
+.cart-product-discription{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cart-product-price{
+    margin-top: 40px;
+    margin-left: -261px;
+    font-weight: 900;
+}
+.ri-delete-bin-line{
+    font-size: 25px;
+    position: relative;
+    left: 50%;
+    top: 80%;
+}
+.cart-order-summery h1{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.cart-order-summery h2{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: -25px;
+    color: rgb(91, 91, 91);
+    font-weight: 100;
+}
+.cart-order-grandTotal h2{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: -55px;
+}
+.cart-order-summery h3{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.line{
+    position: relative;
+    margin-left: 10px;
+    top: 20px;
+    width: 90%;
+    height: 1px;
+    background-color: gray;
+}
+.cart-order-grandTotal{
+    margin-top: 25px;
+    margin-left: 10px;
+}
