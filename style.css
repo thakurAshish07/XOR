@@ -73,5 +73,89 @@ html,body{
     font-weight: 100;
 }
 
+/* MEDIA QUERI */
+
+@media (width < 600px) {
+    .product-container{
+        width: 100vw;
+    }
+    .product1{
+        background-color: black;
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+        margin-top: 5%;
+        background-image: url(https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: center;
+    }
+    .product2{
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+        margin-top: 5%;
+        background-image: url(https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=1916&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    .product3{
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+        margin-top: 5%;
+        background-image: url(https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?auto=format&fit=crop&q=80&w=1818&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: center;
+    }
+    .custom, .preBuild, .assembly, .footer-content{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .custom,.preBuild,.assembly span{
+        -webkit-text-stroke: 1.5px white;
+        color: transparent;
+        font-weight: 600;
+        font-size: 70px;
+    }
+    
+    .overlay{
+        position: absolute;
+        width: 100vw;
+        height: 50vh;
+        background-color: rgba(0, 0, 0, 0.244);
+    }
+    
+    .footer{
+        margin-top: 5%;
+        width: 100vw;
+        height: 5vh;
+        color: white;
+        background-color: black;
+    }
+    .footer-content{
+        font-size: small;
+        font-weight: 100;
+    }
+    .category-list {
+        display: none;
+    }
+    #nav{
+        margin-top: 1%;
+        width: 100vw;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        margin-left: 5vw;
+        cursor: pointer;
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
 
 
