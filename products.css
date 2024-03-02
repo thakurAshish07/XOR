@@ -144,4 +144,71 @@ html, body{
     cursor: pointer;
 }
 
+/* MEDIA QUERI */
+
+@media (width < 600px) {
+    html, body{
+        width: 100vw;
+        /* height: 100vh; */
+    }
+    .items-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 1%;
+        margin-left: 4vw;
+        width: 100%;
+    }
+    .item-container{
+        width: 93%;
+        margin-bottom: 3vh;
+    }
+    .item-image{
+        width: 100%;
+    }
+    .company-name{
+        margin-top: 1vh;
+        font-size: 35px;
+    }
+    .price{
+        font-size: 35px;
+    }
+    .item-name{
+        font-size: 25px;
+        color: grey;
+    }
+    
+    .addToCart{
+        background-color: black;
+        color: white;
+        height: 5vh;
+        width: 35vw;
+        border: none;
+        border-radius: 5px;
+        margin-top: 1vh;
+        font-weight: 500;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .category-list {
+        display: none;
+    }
+    #nav{
+        margin-top: 1%;
+        width: 100vw;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        margin-left: 5vw;
+        cursor: pointer;
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+
+
 
